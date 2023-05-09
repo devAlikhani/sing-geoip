@@ -255,7 +255,7 @@ func main() {
 	if len(os.Args) >= 3 {
 		err = local(os.Args[1], os.Args[2], os.Args[2:])
 	} else {
-		err = release("Loyalsoldier/geoip", "1715173329/sing-geoip")
+		err = release("devAlikhani/v2ray-rules-dat", "devAlikhani/sing-geoip")
 	}
 	if err != nil {
 		logrus.Fatal(err)
